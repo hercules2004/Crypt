@@ -1,0 +1,25 @@
+/* src/components/HomePage.css */
+.homepage-container {
+  background-image: url('./assets/Images/HandCharity.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 70vh; /* 2/5th of the screen */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black; /* Text color */
+  text-align: center;
+  position: relative;
+}
+
+.homepage-title {
+  font-size: 4rem; /* Adjust the font size as needed */
+  color: black;
+}
+
+.navbar {
+  position: absolute; /* Position the Navbar at the top */
+  top: 0; /* Position Navbar at the top */
+  width: 100%; /* Make Navbar full-width */
+}
